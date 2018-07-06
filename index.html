@@ -6,6 +6,9 @@
     <title>Profile: Alexandro T. Meña</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Questrial" rel="stylesheet">
+
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
@@ -17,27 +20,24 @@
     <!-- Header Section -->
 
     <header class="container text-center">
-        <img src="#" alt="profile picture">
-        <h1>Alexandro T. Meña</h1>
-        <nav class="navbar navbar-expand-md navbar-light sticky-top">
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-                <span class="navbar-toggler-icon float-md-right"></span>
-            </button>
-            <div class="navbar-collapse collapse justify-content-center" id="navbarMenu">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#">About me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Posts</a></li>
-                </ul>
-            </div>
+        <img src="img/Picture Container.png" class="img-fluid" alt="profile picture">
+        <div class="profile-name">
+            <h1>Alexandro T. Meña</h1>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="#">About me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Posts</a></li>
+            </ul>
         </nav>
     </header>
 
     <!-- Main content -->
         
         <!-- Jumbotron section -->
-        <div class="container-fluid jumbotron">
+        <div class="container-fluid jumbotron d-flex  align-items-center justify-content-center">
             <div class="container">
                 <h2>Hi! I’m Alexandro Meña.</h2>
                 <p>I’m a front-end web developer.</p>
@@ -47,27 +47,27 @@
 
         <!-- Portfolio Section -->
 
-        <div class="container">
+        <div id="portfolio" class="container">
             <div class="content-wrapper">
                 <h3 class="text-center">Here are some of my works:</h3>
                 <div id="psd-to-html">
                     <h4 class="text-lg-left text-center">Psd to HTML</h4>
                     <div class="psd-to-html-portfolio row text-center">
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src="#">
-                            <h5>My Website</h5>
+                            <img class="img-fluid" src="img/portfolio-sample-1.jpg">
+                            <p>My Website</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src="#">
-                            <h5>My Website</h5>
+                            <img class="img-fluid" src="img/portfolio-sample-1.jpg">
+                            <p>My Website</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src="#">
-                            <h5>My Website</h5>
+                            <img class="img-fluid" src="img/portfolio-sample-1.jpg">
+                            <p>My Website</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src=#"">
-                            <h5>My Website</h5>
+                            <img class="img-fluid" src="img/portfolio-sample-1.jpg">
+                            <p>My Website</p>
                         </div>
                     </div>
                 </div>
@@ -75,20 +75,20 @@
                     <h4 class="text-lg-left text-center">Javascript Application</h4>
                     <div class="javascript-application-portfolio row text-center">
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src="#">
-                            <h5>JS App #1</h5>
+                            <img src="img/portfolio-sample-1.jpg">
+                            <p>JS App #1</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src="#">
-                            <h5>JS App #2</h5>
+                            <img src="img/portfolio-sample-1.jpg">
+                            <p>JS App #2</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src="#">
-                            <h5>JS App #3</h5>
+                            <img src="img/portfolio-sample-1.jpg">
+                            <p>JS App #3</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src=#"">
-                            <h5>JS App #4</h5>
+                            <img src="img/portfolio-sample-1.jpg">
+                            <p>JS App #4</p>
                         </div>
                     </div>
                 </div>
@@ -97,10 +97,10 @@
 
         <!-- Contact section -->
 
-        <div class="container">
-            <div id="contact-section" class="row">
+        <div id="contact-section" class="container">
+            <div class="row">
                 <h4 class="col-12 text-center">Contact me here:</h4>
-                <div id="contact-form" class="col-md-12">
+                <div id="contact-form" class="col-lg-6">
                     <form>
                         <div class="form-group row">
                             <label for="staticEmail" class="col-md-2 col-form-label">Email</label>
@@ -125,12 +125,12 @@
                         </div>
                     </form>
                 </div>
-                <div id="contact-details" class="col-md-12 text-center">
-                    <h5>Contact number</h5>
+                <div id="contact-details" class="col-lg-6 text-center">
+                    <h5>Contact number:</h5>
                     <p>0933-569-8495</p>
                     <h5>E-mail Address:</h5>
                     <p>alexandro.mena0108@gmail.com</p>
-                    <h5>Facebook</h5>
+                    <h5>Facebook:</h5>
                     <p>https://www.facebook.com/atmena0108</p>
                 </div>
             </div>
@@ -138,12 +138,10 @@
 
     <!-- Footer Section -->
 
-    <footer class="container-fluid">
-        <div class="text-center align-items-middle">
-                <p>
-                    © 2018 Blue. All rights reserved<br>
-                    Theme by Alexandro T. Meña
-                </p>
+    <footer>
+        <div id="footer" class="container-fluid row justify-content-center d-flex align-items-center">
+        <p>&copy; 2018 Blue. All rights reserved<br>
+            Theme by Alexandro T. Meña</p>
         </div>
     </footer>
 

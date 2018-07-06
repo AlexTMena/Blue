@@ -1,0 +1,152 @@
+/* Global style */
+/* 
+/////////////////// FONTS ////////////////////////
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Archivo Black', sans-serif; 
+/////////////////////////////////////////////////
+////////////////// COLORS ///////////////////////
+    #ffe066 = Yellow
+    #cacecf = Gray
+    #00a7e1 = Light BLue
+    #266dd3 = Blue
+    #324376 = Dark Blue
+    #2b3d41 = Dark Green
+    #ffffff = White
+/////////////////////////////////////////////////
+*/
+
+
+
+
+/* Header Section */
+
+header button {
+    float: right !important;
+}
+
+.profile-name {
+    background-color: white;
+    margin-top: -40px;
+}
+
+header h1 {
+    font-family: 'Questrial', sans-serif;
+    color: #2b3d41;
+    padding: 10px 0 0 !important;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #ffe066;
+    background-color: #cacecf;
+    margin-top: 20px;
+    position: relative;
+    z-index: -1;
+}
+nav {
+    padding: 0px !important;
+    margin: 0 0 10px !important;
+}
+
+nav a {
+    font-family: 'Archivo Black', sans-serif;
+    color: #324376 !important;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #266dd3 !important;
+}
+
+/* Main-content Section */
+
+    /* Jumbotron Section */
+
+    .jumbotron {
+        border-radius: 0px;
+        background-color: #00a7e1;
+        color: #fff;
+        margin: 30px 0 0;
+        min-height: 300px;
+    }
+
+    /* Portfolio Section */
+
+    #portfolio {
+        background-color: #266dd3;
+        padding: 10px 10px 45px;
+    }
+
+    .content-wrapper {
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    
+    #portfolio h3 {
+        padding: 30px 0 10px;
+    }
+
+    #portfolio h4 {
+        font-family: 'Archivo Black', sans-serif; 
+        text-transform: uppercase;
+        margin: 10px;
+    }
+
+    .psd-to-html-portfolio, .javascript-application-portfolio {
+        padding: 10px;
+    }
+    .portfolio-entry img {
+        width: 80%;
+        height: auto;
+    }
+
+    /* Contact section */
+
+    #contact-section {
+        background-color: #00a7e1;
+        padding: 30px 20px 30px ;
+        color: #fff;
+        font-family: 'Questrial', sans-serif;
+        border-bottom: 20px solid #266dd3;
+    }
+
+    form {
+        text-shadow: 5px 5px 10px #000;
+    }
+
+    input, textarea, .btn {
+        box-shadow: 5px 5px 10px #000;
+    }
+
+    #contact-section button {
+        margin: 0 0 20px;
+    }
+
+    #contact-details p {
+        font-weight: 700;
+    }
+
+    #contact-details h5 {
+        margin-bottom: 0;
+    }
+
+/* Footer sections */
+
+#footer {
+    background-color: #2b3d41;
+    height: 100px;
+    color: #fff;
+    font-family: 'Questrial', sans-serif;
+    margin: 0;
+    border: none;
+}
+
+#footer p {
+    margin: 0;
+}
