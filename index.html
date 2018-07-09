@@ -47,6 +47,13 @@
 
         <!-- Portfolio Section -->
 
+        <div id="modal" class="d-none">
+            <div id="modal-content" class="row">
+                <img class="img-fluid col" id="modalImgContainer" src="psd resources/Blue Theme.jpg">
+                <span onclick="closeModal()" class="close-modal">&times;</span>
+            </div>
+        </div>
+
         <div id="portfolio" class="container">
             <div class="content-wrapper">
                 <h3 class="text-center">Here are some of my works:</h3>
@@ -54,19 +61,19 @@
                     <h4 class="text-lg-left text-center">Psd to HTML</h4>
                     <div class="psd-to-html-portfolio row text-center">
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img class="img-fluid" src="img/portfolio-sample-1.jpg">
+                            <img onclick="openModal(0,0)" class="img-fluid psdToHtml" src="img/portfolio-sample-1.jpg">
                             <p>My Website</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img class="img-fluid" src="img/portfolio-sample-1.jpg">
+                            <img onclick="openModal(0,1)" class="img-fluid psdToHtml" src="img/portfolio-sample-1.jpg">
                             <p>My Website</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img class="img-fluid" src="img/portfolio-sample-1.jpg">
+                            <img onclick="openModal(0,2)" class="img-fluid psdToHtml" src="img/portfolio-sample-1.jpg">
                             <p>My Website</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img class="img-fluid" src="img/portfolio-sample-1.jpg">
+                            <img onclick="openModal(0,3)" class="img-fluid psdToHtml" src="img/portfolio-sample-1.jpg">
                             <p>My Website</p>
                         </div>
                     </div>
@@ -75,19 +82,19 @@
                     <h4 class="text-lg-left text-center">Javascript Application</h4>
                     <div class="javascript-application-portfolio row text-center">
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src="img/portfolio-sample-1.jpg">
+                            <img onclick="openModal(1,0)" class="js-app" src="img/portfolio-sample-1.jpg">
                             <p>JS App #1</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src="img/portfolio-sample-1.jpg">
+                            <img onclick="openModal(1,1)" class="js-app" src="img/portfolio-sample-1.jpg">
                             <p>JS App #2</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src="img/portfolio-sample-1.jpg">
+                            <img onclick="openModal(1,2)" class="js-app" src="img/portfolio-sample-1.jpg">
                             <p>JS App #3</p>
                         </div>
                         <div class="portfolio-entry col-lg-3 col-md-6 col-sm-12">
-                            <img src="img/portfolio-sample-1.jpg">
+                            <img onclick="openModal(1,3)" class="js-app" src="img/portfolio-sample-1.jpg">
                             <p>JS App #4</p>
                         </div>
                     </div>
