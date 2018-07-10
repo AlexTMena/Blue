@@ -2,9 +2,11 @@
 function closeModal() {
     modalContainer = document.getElementById('modal');
     modalContainer.classList.add('d-none');
+    document.getElementById('slides').classList.remove('d-none');
 }
 
 function openModal(type, number) {
+    document.getElementById('slides').classList.add('d-none');
     modalContainer = document.getElementById('modal');
     modalContainer.classList.remove('d-none');
     var modalContainer = document.getElementById('modalImgContainer');
